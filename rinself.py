@@ -705,15 +705,15 @@ def ririnBot(op):
                             if cmd == "help":
                                 helpMessage = helpmessage()
                                 ririn.sendMessage(to, str(helpMessage))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd == "tts":
                                 helpTextToSpeech = helptexttospeech()
                                 ririn.sendMessage(to, str(helpTextToSpeech))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd == "translate":
                                 helpTranslate = helptranslate()
                                 ririn.sendMessage(to, str(helpTranslate))
-                                ririn.sendContact(to, "ueca4120a9d7b0e4a9e7f4f1b1b96a436")
+                                ririn.sendContact(to, "u93d1ee4847fa27817ec1ee5d96d8616f")
                             elif cmd.startswith("changekey:"):
                                 sep = text.split(" ")
                                 key = text.replace(sep[0] + " ","")
